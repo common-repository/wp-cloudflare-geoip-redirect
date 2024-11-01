@@ -1,0 +1,16 @@
+#wpcfr_redirects_repeat .cmb-type-multicheck ul.cmb2-checkbox-list {
+    column-count: 3;
+}
+#wpcfr_redirects_repeat  input.cmb2-text-medium {
+    width: 100% !important;
+}
+@media screen and (max-width: 782px) {
+    #wpcfr_redirects_repeat .cmb-type-multicheck ul.cmb2-checkbox-list {
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 600px) {
+    #wpcfr_redirects_repeat .cmb-type-multicheck ul.cmb2-checkbox-list {
+        column-count: 1;
+    }
+}
